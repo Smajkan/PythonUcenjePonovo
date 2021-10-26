@@ -16,5 +16,46 @@
 # Što dalje za nas znači da prototipiranje može biti vrlo brzo ->
 # INTERPRETERSKI JEZICI -> 
 # Kod interpreterskih jezika, program na višem programskom jeziku se prevodi i izvršava instrukcija po instrukcija.
+# -> 
+# Python se može tretirati na proceduralni način, objektno orijentiran način ili funkcionalan način.
+# Proceduralno programiranje: 
+# jeprogramska paradigma koja koristi linearni ili pristup odozgo 
+# prema dolje. Oslanja se na procedure ili potprograme za izvođenje računanja. Proceduralno programiranje je također poznato kao
+# imperativno programiranje (podijeli pa vladaj 😄).
+# --------------------------------------------------------------------------------------------------------------------------------------#
 
 
+#---------------------------------------------------------------------------------------------------------------------------------------#
+# D O B R O  Z A  Z N A T I 
+# Iako je glavna verzija (trenutno) Pythona verzija 3 ~ kojom cemo se i koristiti u ovoj repozitoriji, Python verzija 2 je i dalje vrlo
+# popularna, iako nije imala nekih update-a osim onih koji se tiću sigurnosti.
+# Kada je u pitanju Python - moguće je koristiti IDE kao što su VSCode, Thonny, Pycharm, Netbeans ili Eclipse.
+#---------------------------------------------------------------------------------------------------------------------------------------#
+
+#---------------------------------------------------------------------------------------------------------------------------------------#
+# P Y T H O N  S I N T A K S A 
+# Python je dizajniran tako da bude lagan za čitanje i ima određene sličnosti engleskog jezika sa uticajem matematike.
+# Kada želimo završiti određenu komandu (naredbu, liniju koda) to radimo tako što pređemo u novi red što je nasuprot većini ostalih
+# programskih jezika koji se služe ";" na kraju npr.
+# Python se ZASNIVA NA tzv. UVLAĆENJU (koristeći se praznim prostorom) kako bi definisao opseg (scope) određene petlje, funkcije ili
+# klase, dok ostali programski jezici koriste vitičaste zagrade ( ' {} ' ) kako bi to učinili
+#---------------------------------------------------------------------------------------------------------------------------------------#
+
+#---------------------------------------------------------------------------------------------------------------------------------------#
+# P R I M J E R 
+# Kod napisan u C++ programskom jeziku za ispis "Hello, Github users!" na ekran:
+#include<iostream>
+#using namespace std;
+#int main()
+#{
+#   cout<<"Hello, Github users!";   
+#   return 0;
+#}
+
+
+#Python kod za isti taj program:
+print("Hello, Github users!")
+
+
+#Slobodno možete pokrenuti kod komandom python3 naziv_filea.py
+# u ovom slučaju python3 python1.py
