@@ -59,3 +59,5 @@ print("Hello, Github users!")
 
 #Slobodno možete pokrenuti kod komandom python3 naziv_filea.py
 # u ovom slučaju python3 python1.py
+
+#Rezultat u konzoli:
