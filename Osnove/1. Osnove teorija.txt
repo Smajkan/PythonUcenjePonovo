@@ -19,7 +19,7 @@
 # -> 
 # Python se može tretirati na proceduralni način, objektno orijentiran način ili funkcionalan način.
 # Proceduralno programiranje: 
-# jeprogramska paradigma koja koristi linearni ili pristup odozgo 
+# je programska paradigma koja koristi linearni ili pristup odozgo 
 # prema dolje. Oslanja se na procedure ili potprograme za izvođenje računanja. Proceduralno programiranje je također poznato kao
 # imperativno programiranje (podijeli pa vladaj 😄).
 # --------------------------------------------------------------------------------------------------------------------------------------#
@@ -61,4 +61,4 @@
 # u ovom slučaju python3 python1.py
 
 #Rezultat u konzoli:
-#https://github.com/Smajkan/PythonUcenjePonovo/blob/main/Photos/1.Lekcija%20-%20Primjer%20(Hello%20World).png
+https://github.com/Smajkan/PythonUcenjePonovo/blob/main/Photos/1.Lekcija%20-%20Primjer%20(Hello%20World).png
