@@ -48,4 +48,4 @@ exit()
 POGLEDATI SLIKU:
 
 
-
+https://github.com/Smajkan/PythonUcenjePonovo/blob/main/Photos/2.%20Instalacija%20-%20Prikaz%20cmd-a%20tokom%20python%20--version%20i%20tokom%20python%20komandi.png

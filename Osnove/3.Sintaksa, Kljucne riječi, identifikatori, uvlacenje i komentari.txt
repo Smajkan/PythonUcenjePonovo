@@ -35,7 +35,8 @@ ovaj broj bi mogao da se promijeni u narednom periodu...
 U Python-u ključne riječi su case-sensitive (što znači da nije isto ukoliko ste napisali "iF", "If" ili "if") 
 Sve ključne riječi osim True, False i None su napisane malim slovima i trebaju biti tako pisane. 
 Neke od značajnih ključnih riječi možete pogledati na linku ispod: 
-[Link 1:]                                                                    / Slika se nalazi unutar Photos pod imenom
+[Link 1: https://github.com/Smajkan/PythonUcenjePonovo/blob/main/Photos/3_0Python_Neke_Klju%C4%8Dne_Rije%C4%8Di.png]            
+                                                                             / Slika se nalazi unutar Photos pod imenom
                                                                              / 3_0Python_Neke_Ključne_Riječi
 
 
