@@ -54,11 +54,11 @@
 
 
 #Python kod za isti taj program:
-
-
+# - POGLEDATI: 1.Osnove - primjer.py
+# - Najbolje bi bilo da rename-ujete file (obavezno ostaviti .py na kraju)
 
 #Slobodno možete pokrenuti kod komandom python3 naziv_filea.py
-# u ovom slučaju python3 python1.py
+# 
 
 #Rezultat u konzoli:
 https://github.com/Smajkan/PythonUcenjePonovo/blob/main/Photos/1.Lekcija%20-%20Primjer%20(Hello%20World).png

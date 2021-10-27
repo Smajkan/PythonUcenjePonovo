@@ -1,0 +1,159 @@
+#                                                【P】 【Y】 【T】 【H】 【O】 【N】                                                      #
+#---------------------------------------------------------------------------------------------------------------------------------------#
+                        SINTAKSA   |   KLJUČNE RIJEČI  |  IDENTIFIKATORI  | UVLAČENJE | K O M E N T A R I                                  
+#---------------------------------------------------------------------------------------------------------------------------------------#
+
+#---------------------------------------------------------------------------------------------------------------------------------------#
+~ S I N T A K S A 
+Sintaksa je skup pravila koja definiraju što znače različite kombinacije simbola. Ovo govori računaru kako će čitati određeni kod. 
+Sintaksa se odnosi na koncept pisanja koda koji se bavi vrlo specifičnim skupom riječi i vrlo specifičnim redoslijedom tih riječi kada 
+dajemo instrukcije računaru. Taj redoslijed i ta stroga struktura ono je što nam omogućuje učinkovitu komunikaciju s računarom. 
+Sintaksa u kodiranju/progrmairanju je isto ono što je gramatika za bilo koji jezik (Engleski, Njemački...). Velika razlika je ipak u
+tome što su računari dosta zahtjevni u tome kako mi kao programer strukturiramo tu gramatiku to jeste našu sintaksu. Ova sintaksa 
+je razlog zašto programiranje nazivamo kodiranjem. Čak i među svim različitim jezicima koji postoje. Svaki programski jezik koristi
+različite riječi u različitoj strukturi u načinu na koji mu dajemo informacije kako bi računar slijedilo naše upute.
+
+Kao što smo prethodno naučili, Python kod možemo executovati (pokrenuti) tako što kod upišemo direktno u command line:
+
+>>> print("Hello, Github users!")
+Hello, Github users!
+
+ili čak možemo napraviti python file na serveru, koristeći se .py file ekstenzijom i onda pokrenuti taj kod unutar command line-u:
+root@users:~# python3 myfile.py                                               
+#---------------------------------------------------------------------------------------------------------------------------------------#
+
+#---------------------------------------------------------------------------------------------------------------------------------------#
+~ K L J U Č N E  R I J E Č I (K E Y W O R D S)
+Ključne riječi su zapravo one riječi koje su rezervisane unaprijed i s posebnim značenjem. Svaki programski jezik ima neke 
+rezervisane riječi poznate kao ključne riječi odnosno keywords. Identifikatori su nazivi koji se koriste za identifikaciju 
+niza, varijable, funkcije, klase i tako dalje. Te ključne riječi su kao što smo rekli rezervisane i ne možemo ih naprimjer koristiti kao
+ime varijable, klase funkcije. Dakle, one su iskorištene za definisanje i strukturu sintakse Pythona kao programskog jezika,
+npr. ključna riječ "if" se koristi za kondicionalne uslove, tako da ne možemo koristiti "if" kao ime varijable u programu.
+
+Python3.7 sadrži više od 33 ključne riječi i neke od njih su iste kao i u ostalim programskim jezicima (if, else, True i False), naravno 
+ovaj broj bi mogao da se promijeni u narednom periodu...
+U Python-u ključne riječi su case-sensitive (što znači da nije isto ukoliko ste napisali "iF", "If" ili "if") 
+Sve ključne riječi osim True, False i None su napisane malim slovima i trebaju biti tako pisane. 
+Neke od značajnih ključnih riječi možete pogledati na linku ispod: 
+[Link 1:]                                                                    / Slika se nalazi unutar Photos pod imenom
+                                                                             / 3_0Python_Neke_Ključne_Riječi
+
+
+Primjer ključnih riječi unutar Python-a:
+age = 28  #Varijabla age (godine) ima vrijednost 28
+if(age>=18):  #Ovo je if ključna riječ - ključna riječ za kondicionalni uslov (Provjeravamo da li je varijable age veća ili jednaka od 18)
+              #Ovdje kao da pišemo sljedeće: "Da li je age(28) veće ili jednako od 18"
+    print("Mozete glasati na izborima") #Ukoliko se zadovoljava uslov a to je -> da je age veće ili jednako 18 ispiši ovo u konzolu 
+else: #ili
+    print("Ne mozete glasati na izborima") #ispiši ovo u konzolu u suprotnom slučaju
+
+
+Kod iznad je moguće kopirati i pokrenuti ili ga možete skinuti sa Github repozitorija, naziv file-a: '3_1PythonKeywordsExample.py'
+U gornjem primjeru ispisat će imate li pravo glasa ili ne, ovisno o vašoj dobi. Python razumije if-else jer je to fiksna ključna riječ 
+i sintaksa, a zatim se vrši daljnja obrada koda.
+
+Obratite pažnju i na uvlačenje jer bez uvlačenja nećete dobiti željeni output, već ćete dobiti bug(grešku)...
+O uvlačenju ćemo malo poslije.
+
+#---------------------------------------------------------------------------------------------------------------------------------------#
+
+#---------------------------------------------------------------------------------------------------------------------------------------#
+~I D E N T I F I K A T O R I
+Ime varijable npr. poznato je kao identifikator u Pythonu. Dakle, identifikator služi kao spremnik za pohranjivanje određene vrijednosti.
+Identifikator je naziv koji se daje entitetima kao što su klasa, funkcije, varijable i tako dalje. Pomaže pri odvajanju jednog elementa
+od drugog. Identifikator počinje slovom od A do Z ili od a do z ili donjom crtom (_) iza koje ima najmanje nula slova, podvlaka i 
+znamenki (0 do 9).
+Python ne dopušta znakove kao što su '@', '$' 'i' '%' unutar identifikatora. Python je programski jezik koji razlikuje velika i
+mala slova (case-sensitive je). Na ovaj način, Godine i godine su dva jedinstvena identifikatora u Pythonu.
+
+Kada je u pitanju varijabla nju možemo posmatrati kao određenu kutiju u koju možemo stavljati stvari.
+Varijable je kreirana u trenutku kada joj dodijelimo vrijednost.
+
+Pravila imenovanja za identifikatore:
+-Nazivi klasa počinju velikim slovom. Svaki drugi identifikator počinje malim slovom ili donjom crtom. Primjer: _avg, new 
+-Ime varijable ne može početi brojem. Primjer: 2avg., 24age
+-Identifikatori ne mogu imati posebne znakove, mogu imati samo alfanumeričke znakove ili donju crtu (_). Primjer: avg.1 = 30,
+new_avg = 55
+-Kao što je ranije spomenuto, Python je programski jezik osjetljiv na velika i mala slova. Stoga su Total i total dvije različite 
+varijable.
+-Početak identifikatora donjom crticom pokazuje da je identifikator privatan. Primjer: _broj = 70
+
+Primjeri ispravnih imena varijabli i njihov ispis:
+a = 20
+print("a=",a)
+var1 = 45
+print("var1=",var1)
+str_1 = "Github.com/Smajkan"
+print("str_1",str1)
+
+Primjeri NEISPRAVNIH imena varijabli:
+2a = 5
+var-new = 30
+$a = 20
+
+Ukoliko pokušate pokrenuti ovaj kod dobiti ćete error kao što je "SyntaxError: invalid syntax".
+
+                                    Razlika Između Ključnih Riječi (keywords) i Identifikatora:
+
+Ključne riječi su rezervisane riječi sa specijalnim značenjem  | Identifikator je unikatno ime dato klasi, funkciji (od strane nas)
+Ključne riječi nemaju simbole                                  | Identifikatori mogu imati simbole
+Specificiraju tip eniteta                                      | Identifikuju ime pojedinog entiteta
+Ključne riječi nisu dalje klasificirani                        | Identifikatori su klasificirani u 'external name' i 'internal name'
+  
+#---------------------------------------------------------------------------------------------------------------------------------------#
+
+#---------------------------------------------------------------------------------------------------------------------------------------#
+~U V L A Č E N J E 
+Uvlačenje se zapravo odnosi na razmake od početka reda do početka koda.
+Dok u drugim programskim jezicima uvlačenje u kodu služi samo za čitljivost, uvlačenje u Pythonu je vrlo važno.
+**Python koristi uvlačenje za označavanje bloka koda odnosno scope-a.**
+
+
+Primjer
+if 5 > 2:
+  print("Pet je veće od dva!")
+
+**Ukoliko pogriješite prilikom uvlačenja ili ga preskočite, Python će vam izbaciti grešku**
+Primjer:
+if 5 > 2:
+print("Pet je veće od dva!")
+
+Greška:
+    print("Pet je veće od dva")       
+    ^
+IndentationError: expected an indented block
+
+
+Ukoliko koristite VSCode za vaš IDE postoji Extension  koji se naziva "Python Indent" koji u suštini služi za ispravno uvlačenje 
+u kodu.
+Koliko uvlačenje želite napraviti zavisi od vas kao programera, međutim mora biti barem jedno.
+
+Primjer(ispravno):
+if 5 > 2:
+ print("Pet je veće od dva!") 
+if 5 > 2:
+        print("Pet je veće od dva!") 
+
+
+Također, moramo koristiti isti broj uvlačenja za isti blok koda, ili će nam Python izbaciti error.
+Primjer:
+
+if 5 > 2:
+ print("Pet je veće od dva!")
+        print("Pet je veće od dva!")
+
+Greška:
+    print("Pet je veće od dva!")   
+IndentationError: unexpected indent
+#---------------------------------------------------------------------------------------------------------------------------------------#
+
+#---------------------------------------------------------------------------------------------------------------------------------------#
+~K O M E N T A R I 
+Python ima također mogućnost komentara, komentari su ignorisani od strane kompajlera, odnosno kada pokrenemo kod, ti komentari
+kao da ih i nema. Oni nam služe da napišemo šta određena linija koda radi.
+Komentare započinjemo tako što napišemo znak # a onda nakon toga što god želimo
+
+Primjer:
+#Ovo je komentar.
+print("Zdravo, Github!")
+

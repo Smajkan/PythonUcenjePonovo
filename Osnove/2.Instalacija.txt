@@ -1,0 +1,51 @@
+#                                                【P】 【Y】 【T】 【H】 【O】 【N】                                                      #
+#---------------------------------------------------------------------------------------------------------------------------------------#
+#---------------------------------------------------------------------------------------------------------------------------------------#
+~P R O V J E R A  -  Da li imamo već instaliran Python?
+Mnogo PC-ova i računara imaju već instaliran Python, a da bismo provjerili da li imamo instaliran Python, uđemo u command line (za 
+Windows) ili terminal (za Linux i MAC) i kucamo:
+
+python3 --version
+
+
+Te ukoliko Vam ispiše nešto kao:
+"Python3.x.x" python je instaliran.
+#---------------------------------------------------------------------------------------------------------------------------------------#
+
+#---------------------------------------------------------------------------------------------------------------------------------------#
+~I N S T A L A C I J A
+Ukoliko Python nemate instaliran, možete otići na sljedeći link i instalirati ga:
+Link[1]: https://www.python.org/downloads/windows/          /Link koristiti za Windows
+Link[2]: https://www.python.org/downloads/macos/            /Link koristiti za MacOS
+Link[3]: https://www.python.org/download/other/             /Link koristiti za sve ostale platforme
+
+Za instalaciju na Linux u konzolu kucati:
+sudo apt-get install python3.x 
+
+x - predstavlja verziju python-a 3 koju želimo da downloadujemo.
+
+#---------------------------------------------------------------------------------------------------------------------------------------#
+
+#---------------------------------------------------------------------------------------------------------------------------------------#
+~ P O K R E T A N J E 
+Python file-ove (kao što je objašnjeno ranije) možemo pokrenuti na način da u konzolu upišemo:
+python3 "ime_fajla.py"
+#---------------------------------------------------------------------------------------------------------------------------------------#
+
+#---------------------------------------------------------------------------------------------------------------------------------------#
+~ T E S T I R A N J E 
+Program sa malo linija možemo testirati i pokrenuti unutar command line-a (dakle ne moramo praviti poseban file), te će biti 
+dovoljno da upišemo u terminal/command line:¸¸
+python3                                                      /Ukoliko python komanda ne radi, pokušajte komandu py
+
+
+Kada želimo izaći iz pythona unutar command line-a odnosno terminala upisati ćemo komandu:
+exit() 
+
+#---------------------------------------------------------------------------------------------------------------------------------------#
+#---------------------------------------------------------------------------------------------------------------------------------------#
+
+POGLEDATI SLIKU:
+
+
+
