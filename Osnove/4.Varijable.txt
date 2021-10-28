@@ -1,0 +1,147 @@
+#                                                【P】 【Y】 【T】 【H】 【O】 【N】                                                      #
+#---------------------------------------------------------------------------------------------------------------------------------------#
+#---------------------------------------------------------------------------------------------------------------------------------------#
+                                                        V A R I J A B L E
+#---------------------------------------------------------------------------------------------------------------------------------------#
+
+#---------------------------------------------------------------------------------------------------------------------------------------#
+~Š T A  S U  V A R I J A B L E ?
+Riječ varijabla dolazi iz engleske riječi "variable" što znači "promjenjiva vrijednost". Definicija varijable je sljedeća:
+Varijabla je memorijska lokacija čiji se sadržaj može mijenjati tokom izvođenja programa. Znači svaka varijabla u programu predstavlja 
+neku memorijsku lokaciju i zauzima određeni dio memorije (taj dio koji zauzima ovisi o tipu varijable) kojeg mi možemo mijenjati.
+U pravom svijetu varijablu bi najlakše mogli zamisliti kao jednu laticu u velikom ormaru gdje se mogu staviti bilo kakve stvari, pod
+uvjetom da su te stvari istog tipa kad kažem istog tipa.
+
+Varijable su neizostavni dio programski jezika, pa i samog Pythona. **Jedno važno svojstvo varijable u Pythonu jeste da se svaka 
+varijabla gleda kao objekat, a to je iz razloga što je sam Python ako programski jezik objektno-orijentisan.
+#---------------------------------------------------------------------------------------------------------------------------------------#
+
+#---------------------------------------------------------------------------------------------------------------------------------------#
+~K R E I R A N J E  V A R I J A B L E 
+Python zapravo nema komandu za deklaraciju varijable i ona je (kao što smo naveli prethodno kreirana u trenutku kada joj dodijelimo
+određenu vrijednost). 
+
+*Pogledati primjer: "4KreiranjeVarijable.py"
+
+Kao što smo vidjeli varijablama (u Pythonu) nije potrebno dodijeliti bilo kakav tip (tip podatka) i također, jedno od svojstava Pythona
+jeste da varijabla prilikom izvršavanja u programu može čak i promijeniti TIP, a ne samo vrijednost.
+
+*Pogledati primjer: "4_1KreiranjeVarijablePromjenaTipa.py"
+#---------------------------------------------------------------------------------------------------------------------------------------#
+
+#---------------------------------------------------------------------------------------------------------------------------------------#
+~C A S T I N G 
+Casting varijable ili ako to grubo prevedemo "raspoređivanje uloge" nije ništa drugo nego dodjeljivanje tipa podatka varijabli, a to se 
+upravo može postići casting(om) 
+
+*Pogledati primjer: "4_2CastingVarijable.py"
+#---------------------------------------------------------------------------------------------------------------------------------------#
+
+#---------------------------------------------------------------------------------------------------------------------------------------#
+~K A K O  Z N A T I  T I P  P O D A T K A  V A R I J A B L E?
+Tip podatka varijable možemo saznati koristeći se funkcijom type(), o funkcijama ćemo govoriti nešto kasnije, međutim za sada je bitno
+zapamtiti da su funkcije određeni kod koji je došao uz sam Python kada smo ga instalirali, te nam služe da uradimo određene stvari na 
+lakši način, konkretno u ovom slučaju nam pomaže da saznamo kojeg je tipa podatka određena varijabla
+
+*Pogledati primjer: "4_3ProvjeriTipVar.py"
+
+O tipovima podataka i casting-u ćemo pričati dodatno poslije.
+#---------------------------------------------------------------------------------------------------------------------------------------#
+
+#---------------------------------------------------------------------------------------------------------------------------------------#
+~ ' '  I L I " "
+Da li ćemo koristiti " " ili ' ' prilikom deklarisanja varijabli koje su tipa string, možemo se koristiti sa oba načina. 
+
+*Pogledati primjer: " 4_4SingleOrDoubleQuotes.py "
+#---------------------------------------------------------------------------------------------------------------------------------------#
+
+#---------------------------------------------------------------------------------------------------------------------------------------#
+~C A S E  S E N S I T I V E 
+O ovome smo pričali i ranije kada smo obrađivali identifikatore, dakle nije isto ukoliko napišemo a = 4 i A = "Python", ovo su potpuno
+dvije različite varijable i sada A neće 'prepraviti' vrijednost a (odnosno varijabla a će i dalje biti 4, a varijabla A će i dalje biti
+Python)
+#---------------------------------------------------------------------------------------------------------------------------------------#
+
+#---------------------------------------------------------------------------------------------------------------------------------------#
+~I M E N O V A N J E  V A R I J A B L I 
+Imena varijabli mogu imati neka kratka imena (kao što su x i y) ili mogu biti malo više deskriptivnija (ime_vozila, broj_mjeseci_u_godini)
+Međutim prilikom imenovanja moramo paziti na neka pravila (pravila o davanju imena varijablama):
+-Ime varijable mora početi sa slovom ili sa znakom donje crtice ('_')
+-Ime varijable ne smije počinjati sa brojem
+-Ime varijable može se sastojati isključivo od alfa-numerički znakova i donjih crtica (A-Z ; 0-9 i _)
+*Pogledati primjer: " 4_5PrimjerImenaVarijabli.py "
+#---------------------------------------------------------------------------------------------------------------------------------------#
+
+#---------------------------------------------------------------------------------------------------------------------------------------#
+~P R A K S A  P R I  I M E N O V A N J U 
+Postoje određene prakse (odnosno tehnike) davanja imena varijablama pogotovo onim varijablama koje imaju dugačka imena
+
+1. Tzv. Camel Case - ovdje imenujemo varijable na način da svaka riječ, osim prve počinje sa velikim početnim slovom
+2. Tzv. Pascal Case - ovdje imenujemo varijable na način da svaka riječ počinje sa velikim početnim slovom
+3. Tzv. Snake Case - ovdje imenujemo varijable na način da svaku riječ odvajamo sa donjom crticom ("_")
+
+*Pogledati primjer: "4_6TehnikeImenovanja.py"
+#---------------------------------------------------------------------------------------------------------------------------------------#
+
+#---------------------------------------------------------------------------------------------------------------------------------------#
+~D O D J E L A  V I Š E  V R I J E D N O S T I  V I Š E  V A R I J A B L A 
+Python nam omogućava da dodijelimo više vrijednosti više varijabla, dakle možemo u istoj liniji koda dodijeliti više različiti 
+vrijednosti različitim varijablama
+
+*Pogledati primjer: "4_7ViseVrViseVar.py"
+#---------------------------------------------------------------------------------------------------------------------------------------#
+
+#---------------------------------------------------------------------------------------------------------------------------------------#
+~D O D J E L A  J E D N E  V R I J E D N O S T I  V I Š E  V A R I J A B L I
+Također Python omogućava da dodijelimo jednu vrijednost različitim varijablama.
+
+*Pogledati primjer: "4_7_1JednaVrViseVar.py"
+#---------------------------------------------------------------------------------------------------------------------------------------#
+
+#---------------------------------------------------------------------------------------------------------------------------------------#
+~U N P A C K I N G
+Ukoliko imamo više vrijednosti unutar liste, ili tuple-a, ili polja (o čemu ćemo kasnije više), Python nam dozvoljava da "ekstraktujemo"
+te vrijednosti u varijablu. Ovo se naziva "unpacking"
+
+*Pogledati primjer: "4_7_2Unpacking.py"
+#---------------------------------------------------------------------------------------------------------------------------------------#
+
+#---------------------------------------------------------------------------------------------------------------------------------------#
+~I S P I S  V A R I J A B L I 
+print komanda odnosno izjava je uglavnom korištena da se varijable ispišu. Kako bi iskombinirali varijablu zajedno sa tekstom, Python se 
+koristi znakom plus ('+')
+
+Također, kada su u pitanju stringovi (znakovi) + možemo koristiti da dodamo jednu varijablu na drugu (tzv.string concatenation)
+
+*Pogledati primjer: "4_8IspisVarijabli.py"
+
+Dok, za brojeve znak '+' služi kao matematički operator:
+*Pogledati primjer: "4_8_1IspisVarijableMatematickiOp.py"
+
+A ukoliko kombiniramo broj i string, Python će nam izbaciti grešku.
+#---------------------------------------------------------------------------------------------------------------------------------------#
+
+#---------------------------------------------------------------------------------------------------------------------------------------#
+~G L O B A L N E  V A R I J A B L E
+Varijable koje su kreirane izvan funkcija (mi do sada nismo pisali nikakve funkcije), tako da smo praktički kreirali varijable koje se
+nazivaju globalnim varijablama. Globalne varijable mogu biti korištene od strane sviju, dakle i u funkcijama i izvan njih.
+
+*Pogledati primjer: "4_9GlobalneVarijable.py"
+
+Sad za sada pogledati samo kod i kako je kreirana globalna varijabla, poslije ćemo se baviti više funkcijama.
+
+Ukoliko kreiramo varijablu sa istim imenom unutar funkcije ta varijabla će biti lokalna, što znači da će se moći koristiti samo unutar
+te funkcije i njena vrijednost unutar te funkcije biti će ona koju smo joj i dodijelili, dok vrijednost globalne varijable će ostati
+također ista. 
+
+*Pogledati primjer: "4_9_1GlobalneVarijablaMix.py"
+
+Uglavnom, kada kreiramo varijablu unutar određene funkcije ona je lokalna, međutim mi nju možemo promjeniti i postaviti je tako da bude 
+globalna tako što ćemo ispred imena varijable staviti ključnu riječ "global".
+
+*Pogledati primjer: "4_9_2GlobalnaVarijablaUnutarFunkcije.py"
+
+Također, pored ovoga ključnu riječ global možemo koristiti unutar funkcije kada želimo da promijenimo vrijednost globalne varijable 
+unutar funkcije:
+
+*Pogledati primjer: "4_9_3PromjenaGlobVarUnutarFunkcije.py"

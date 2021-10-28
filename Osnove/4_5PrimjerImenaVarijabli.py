@@ -1,0 +1,6 @@
+mojavarijabla = "Python"
+moja_varijabla = "Python"
+_moja_varijabla = "Python"
+mojaVarijabla = "Python"
+MOJAVARIJABLA = "Python"
+mojavarijabla1 = "Python"
