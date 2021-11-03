@@ -1,0 +1,105 @@
+#                                                【P】 【Y】 【T】 【H】 【O】 【N】                                                      #
+#---------------------------------------------------------------------------------------------------------------------------------------#
+#---------------------------------------------------------------------------------------------------------------------------------------#
+                                                   T I P O V I  P O D A T A K A 
+#---------------------------------------------------------------------------------------------------------------------------------------#
+
+#---------------------------------------------------------------------------------------------------------------------------------------#
+~U V O D
+U programiranju, tipovi podataka su vrlo bitan koncept. Tip podatka predstavlja klasifikaciju podataka koju smo koristili u našem 
+programu kako bi obradili podatke. Podaci mogu biti cijeli brojevi(int), float, string, character i logički(boolean). Na primjer, 
+pretpostavimo da trebamo dodati dva broja (10+20). Ovi brojevi imaju specifičan integer tip podataka.
+Svaka vrijednost u Pythonu ima tip podatka. Pošto je u Pythonu sve objekt, tipovi podataka su zapravo klase, a varijable su instance
+odnosno objekti tih klasa. Python je dinamički tipiziran jezik, što znači da nije potrebno prethodno eksplicitno deklarirati varijable
+kako bih ih koristili u programu. Python interpreter postavlja tip podatka varijable na osnovu dodijeljene vrijednosti, tip podataka se
+mijenja u odnosu na samu vrijednost varijable. Python može spremiti različite vrste podataka, a s različitim tipovima podataka možemo
+raditi različite stvari.
+
+Tekstovni tip podatka: str (string)
+Numerički tip podatka: int (integer), float, complex
+Sekvencni tip podatka: list, tuple, range
+"Mapping" (tzv. Riječnik) tip podatka: dict
+Set tip podatka: set, frozenset
+Boolean tip podatka: bool
+Binarni tipovi podataka: bytes, bytearray, memoryview
+
+*Da se podsjetimo, tip podatka možemo saznati koristeći se funkcijom type()* - npr. print(type(x))
+#---------------------------------------------------------------------------------------------------------------------------------------#
+
+#---------------------------------------------------------------------------------------------------------------------------------------#
+~I N T E G E R
+Integeri kao što i sama riječ kaže predstavljaju cijele brojeve bez ikakvih decimala. U Pythonu, integeri su neograničene veličine, to
+jeste ograničeni su od i do određene vrijednosti međutim ta vrijednost ima veze sa tim da li je računar 32 bitni ili 64 bitni...
+Ko želi više pročitati o tome: https://en.wikipedia.org/wiki/Integer_%28computer_science%29
+
+Primjeri integer-a:
+
+*Pogledati primjer: "5_1Integeri.py"
+#---------------------------------------------------------------------------------------------------------------------------------------#
+
+#---------------------------------------------------------------------------------------------------------------------------------------#
+~F L O A T
+Realni brojevi sa decimalnim dijelom koji odvajaju sam integer i ostatak nazivaju se "FLOATING NUMBERS" odnosno grubo rečeno float je 
+tip podatka koji predstavlja brojeve sa ostatkom. Oni mogu biti i negativni i pozitivni i njihova preciznost može ići do 15 decimalnih
+mjesta, dakle npr. 3.123456789123415  - ima tačno 15 brojeva nakon ('.') odnosno ima tačno 15 decimala.
+
+*Pogledati primjer: "5_2Float.py"
+
+Float ćete također nekada moći vidjeti sa naučnim brojevima tj. sa slovom 'e' kako bi ukazalo na stepen broja 10. 
+npr. 35e3, -87.7e100...
+#---------------------------------------------------------------------------------------------------------------------------------------#
+
+#---------------------------------------------------------------------------------------------------------------------------------------#
+~C O M P L E X
+Kompleksni brojevi su predstavljeni u formi x+yj, gdje "j" predstavlja imaginarni dio. 
+
+*Pogledati primjer: "5_2Float.py"
+#---------------------------------------------------------------------------------------------------------------------------------------#
+
+#---------------------------------------------------------------------------------------------------------------------------------------#
+~isinstance()
+-Iako se možemo koristiti funkcijom type kako bi saznali kojoj klasi pripada varijabla ili neka vrijednost, dodatno moguće je koristiti 
+i funkciju isinstance() koja se koristi da bi provjerili da li neki objekat pripada određenoj klasi.
+
+*Pogledati primjer: "5_3isinstance.py"
+#---------------------------------------------------------------------------------------------------------------------------------------#
+
+#---------------------------------------------------------------------------------------------------------------------------------------#
+~B O O L 
+Funkcija bool() pretvara datu vrijednost u logičku vrijednost (tačno ili netačno). Ako je data vrijednost netačna, bool funkcija će vratiti
+False, inače vratit će True. Ako ne proslijedimo nikakvu vrijednost funkciji bool(), ona će vratiti False.
+
+*Pogledati primjer: "5_3Bool.py"
+#---------------------------------------------------------------------------------------------------------------------------------------#
+
+#---------------------------------------------------------------------------------------------------------------------------------------#
+~L I S T
+Lista u Pythonu predstavlja uređenu grupu nekih stavki. To je jedan od najčešće korištenih tipova podataka u Pythonu i potpuno je 
+prilagodljiv. Stavke na listi ne moraju biti istog tipa, tj. lista može sadržavati vrijednosti različitih tipova podataka.
+Deklarisanje liste je prilično jednostavno. Upišemo [] i unutar ovih zagrada dodajemo stavke koje odvajamo zarezom i tako ih dodajemo 
+jednu po jednu, naravno moramo se sjetiti da moramo koristiti navodnike prilikom korištenja stringa.
+
+Listu ispisujemo kao i sve ostale varijable, međutim ukoliko želimo ispisati određenu stavku unutar te liste koristimo se takozvanim
+"slicing" operatorom ('[]')
+
+*Pogledati primjer: "5_4List.py"
+#---------------------------------------------------------------------------------------------------------------------------------------#
+
+#---------------------------------------------------------------------------------------------------------------------------------------#
+~T U P L E
+Tuple u Pythonu je uređeni niz vrijednosti razdvojenih zarezima (stavki ili elementi). Tupli su isti kao i liste, ali glavna razlika je
+u tome što su tuple nepromjenjivi. Jednom kreirani tuple se ne može više mijenjati. Tuple se koristi za sastavljanje podataka koji su
+"write-protected" i obično su brži od lista jer se ne mogu progresivno mijenjati.
+Za razliku od lista, tuplove definiramo unutar normalnih zagrada () i također ih odvajamo zarezom.
+
+*Pogledati primjer: "5_5Tuple.py"
+#---------------------------------------------------------------------------------------------------------------------------------------#
+
+#---------------------------------------------------------------------------------------------------------------------------------------#
+~D I C T I O N A R Y
+Dictionary (riječnik) u Pythonu je neuređena kolekcija parova: ključ/vrijednost.
+Dictionary je česta asocijacija za nizove ili za hešove koji se sastoje od parova ključ/vrijednost. Dictionary se koristi za dohvaćanje
+informacija. U Pythonu su dictionaries definirani unutar zagrada {} pri čemu je svaka stavka par u strukturi ključ:vrijednost.
+Ključ i vrijednost mogu biti bilo koje vrste.
+
+*Pogledati primjer: "5_6Dictionary.py"
