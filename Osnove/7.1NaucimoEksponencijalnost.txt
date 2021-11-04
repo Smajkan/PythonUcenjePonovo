@@ -1,0 +1,29 @@
+#                                                【P】 【Y】 【T】 【H】 【O】 【N】                                                      #
+#---------------------------------------------------------------------------------------------------------------------------------------#
+#---------------------------------------------------------------------------------------------------------------------------------------#
+                                                 E K S P O N E N C I J A L N O S T
+#---------------------------------------------------------------------------------------------------------------------------------------#
+
+#---------------------------------------------------------------------------------------------------------------------------------------#
+Šta je uopšte eksponencijalnost tj. Eksponencija?
+Inače, mi to jednostavnije zovemo stepenovanjem. U Python-u stepenovanje radimo tako što između dvije vrijednosti stavljamo znak **
+Dakle, broj**stepen.
+Pored ovoga moguće je i uvezati stepenovanje zajedno, drugim riječima možemo stepenovati broj na više vrijednosti, tipa
+broj**stepen**stepen
+
+*Pogledati primjer: "7_1_1Eksponencijalnost.py"
+
+#---------------------------------------------------------------------------------------------------------------------------------------#
+Eksponencija sa floatom?
+Vjerujem da je stepenovanje cijelih brojeva vrlo lagano, međutim da li ste znali da je moguće i stepenovati floatove? 
+
+Sljedeći primjer koji ćete vidjeti kao rezultat dati će kvadratni korijen broja 9.
+
+*Pogledati primjer: "7_1_2EksponencijaFloat.py"
+
+Da bi razumjeli ovo moramo se prisjetiti matematike.
+U matematici, kvadratni korijen od broja x je broj r, takav da je r**2 = x, ili, drugim riječima, broj r, čiji je kvadrat 
+(rezultat množenja broja sa samim sobom) jednak x. Svaki nenegativan realan broj x ima jedinstven nenegativni kvadratni korijen, koji se
+naziva osnovni kvadratni korijen, koji se označava sa radikalnim simbolom kao korijen iz x, ili, koristeći eksponentno označavanje, 
+kao x**1/2. Na primjer, osnovni korijen od 9 je 3, u oznaci korijen iz 3, jer je 3**2 = 3 × 3 = 9 i 3 je nenegativan broj.
+

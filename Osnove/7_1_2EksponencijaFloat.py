@@ -1,0 +1,1 @@
+print( 9 ** (1/2) ) #Rezultat će naravno biti float

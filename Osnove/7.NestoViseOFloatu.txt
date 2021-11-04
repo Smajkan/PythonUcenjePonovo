@@ -1,0 +1,17 @@
+#                                                【P】 【Y】 【T】 【H】 【O】 【N】                                                      #
+#---------------------------------------------------------------------------------------------------------------------------------------#
+#---------------------------------------------------------------------------------------------------------------------------------------#
+                                                     V I S E   O  F L O A T U
+#---------------------------------------------------------------------------------------------------------------------------------------#
+
+#---------------------------------------------------------------------------------------------------------------------------------------#
+~ F L O A T
+Dakle, od prije znamo šta je to float (to je tip podatka koji u sebi sadrži brojeve sa decimalom), međutim kako možemo "proizvesti"
+floatove?
+Dakle, float možemo dobiti na način da podijelimo dva integer-a.
+Float također možemo dobiti tako što ćemo izvršiti operacije na dva float-a ili izvršiti operaciju na jednom floatu i jednom integeru.
+
+*Pogledaj primjer: "7_1ProduceFloats.py"
+
+Ukoliko imate iskustva sa ostalim programskim jezicima, sigurno se pitate kako je moguće da float možemo sabrati sa integerom?
+To je moguće iz razloga što je Python jako pametan (all jokes on side) i automatski konvertuje integer u float.

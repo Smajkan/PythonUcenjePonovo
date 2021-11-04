@@ -1,0 +1,24 @@
+#                                                【P】 【Y】 【T】 【H】 【O】 【N】                                                      #
+#---------------------------------------------------------------------------------------------------------------------------------------#
+#---------------------------------------------------------------------------------------------------------------------------------------#
+                                                 K O L I Č N I K  I  O S T A T A K
+#---------------------------------------------------------------------------------------------------------------------------------------#
+
+#---------------------------------------------------------------------------------------------------------------------------------------#
+~K O L I Č N I K 
+Tzv. Floor division se vrši pomoću dvije kose crte naprijed i koristi se za određivanje količnika podjele. Čekaj! Šta?! "Floor Division"? 
+"količnik"? Količnik samo označava količinu koja je nastala kao rezultat dijeljenja dva broja, a floor division je zapravo kao normalna 
+operacija dijeljenja, jedina razlika je što se vraća najveći mogući cijeli broj. Ovaj cijeli broj je manji ili jednak normalnom rezultatu 
+dijeljenja.
+
+*Pogledati primjer: "7_2_1FloorDivision.py"
+
+Kod iznad će ispisati 3, iz razloga što 6 u 20 može stati 3 puta, a ujedno i čini najveći mogući integer.
+Moguće je također koristiti i floor division i za floatove, a u tom slučaju rezultat će također biti float.
+
+#---------------------------------------------------------------------------------------------------------------------------------------#
+~O S T A T A K
+Dosadni ostatci, ali bar nisu toliko dosadni kada je Python u pitanju. U Python-u možemo koristiti tzv. Modulo operator - koji je
+predstavljen modulo operatorom kako bi dobili ostatak pri dijeljenju.
+
+*Pogledati primjer: "7_2_2ModuloOperator.py"

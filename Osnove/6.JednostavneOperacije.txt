@@ -1,0 +1,21 @@
+#                                                【P】 【Y】 【T】 【H】 【O】 【N】                                                      #
+#---------------------------------------------------------------------------------------------------------------------------------------#
+#---------------------------------------------------------------------------------------------------------------------------------------#
+                                            J E D N O S T A V N E  O P E R A C I J E
+#---------------------------------------------------------------------------------------------------------------------------------------#
+
+#---------------------------------------------------------------------------------------------------------------------------------------#
+Množenje i dijeljenje u Pythonu je također vrlo jednostavno. Za množenje koristimo se znakom zvjezdice (asterisk *) i kose crtice
+(forward slash /) za dijeljenje. 
+Ove operacije možemo izvoditi odmah unutar print statement-a direktno upisujući brojeve, ili možemo koristiti varijable.
+
+Baš kao što se i u matematici koristimo zagradama kako bi ukazali na to koju operaciju želimo izvršiti prvo, isto možemo uraditi i u 
+Pythonu, naravno nećemo zaboraviti da također moramo imati posebne zagrade za print naredbu..
+
+Jedna zanimljiva stvar kod Python-a jeste da nakon dijeljenja brojeva rezultat koji dobijemo će biti sa decimalom, odnosno dobit ćemo
+float tip podataka.
+
+*Pogledati primjer: "6_1JednostavneOperacije.py"
+
+
+Na isti način možemo se koristiti i sabiranjem (+), i oduzimanjem (-)
