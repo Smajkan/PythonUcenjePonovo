@@ -22,3 +22,7 @@ Dosadni ostatci, ali bar nisu toliko dosadni kada je Python u pitanju. U Python-
 predstavljen modulo operatorom kako bi dobili ostatak pri dijeljenju.
 
 *Pogledati primjer: "7_2_2ModuloOperator.py"
+
+
+
+*********Uraditi 6,7,8,9,10, 10.1 zadatke

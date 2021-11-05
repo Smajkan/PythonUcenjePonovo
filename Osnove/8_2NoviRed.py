@@ -1,0 +1,1 @@
+print('Jedan \nDva \nTri')
