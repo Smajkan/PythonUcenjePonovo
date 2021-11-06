@@ -1,0 +1,37 @@
+#                                                【P】 【Y】 【T】 【H】 【O】 【N】                                                      #
+#---------------------------------------------------------------------------------------------------------------------------------------#
+#---------------------------------------------------------------------------------------------------------------------------------------#
+                                                          I N P U T
+#---------------------------------------------------------------------------------------------------------------------------------------#
+
+#---------------------------------------------------------------------------------------------------------------------------------------#
+Do sada programe koje smo pravili nisu zahtjevali nikakav unos od strane korisnika. Ukoliko to želimo, to jeste ukoliko želimo da nam
+korisnik unosi vrijednosti neke varijable to radimo koristeći se funkcijom input. 
+
+Naprimjer, zamislite da pravimo neku igricu u kojoj želimo naprimjer da pratimo leadboard, ta igrica može "pitati", odnosno zatražiti
+od igrača da upiše svoje ime (nickname) u igrici (a to rade mnoge igrice danas). Input funkcija zatraži unos od korisnika i vraća 
+ono što su unijeli kao string (iako korisnik unese broj, on je procesuiran kao string).
+
+*Pogledati primjer: "9_1InputFunkcija.py"
+
+
+Ukoliko, mi želimo da upišemo neki tekst kako bi korisnik znao šta da upiše, onda ćemo morati unutar zagrade input funkcije iskoristiti
+znake navodnika. 
+
+*Pogledati primjer: "9_2InputFunkcija.py"
+
+
+Maloprije smo spomenuli da kada unosimo određene vrijednosti input() funkcija vraća string bez obzira da li je korisnik unio tekst ili
+neki broj. Međutim, ukoliko mi želimo da taj ulaz bude nekog drugog tipa podatka onda se moramo koristiti cast-ovanjem.
+Također, osim pretvaranja stringa u integer, moguće je (nakon što smo prvobitno vratili integer kao tip podatka prilikom unosa), 
+npr. Prilikom ispisa pretvoriti taj unos u string koristeći se funkcijom str()
+
+*Pogledati primjer: "9_3InputCasting.py"
+
+
+Naravno, mi nismo ograničeni time koliko input-a odnosno unosa od strane korisnika želimo unutar jednog programa. Tako da, možemo uzeti
+unos jednom, dva put ili 1000 puta u zavisnosti od naših potreba. 
+
+Pogledati primjer: "9_4MultipleInputTaking.py"
+
+**URADITI ZADATAK: 13, 14

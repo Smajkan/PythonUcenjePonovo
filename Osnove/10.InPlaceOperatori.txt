@@ -1,0 +1,20 @@
+#                                                【P】 【Y】 【T】 【H】 【O】 【N】                                                      #
+#---------------------------------------------------------------------------------------------------------------------------------------#
+#---------------------------------------------------------------------------------------------------------------------------------------#
+                                                I N  P L A C E  O P E R A T O R I 
+#---------------------------------------------------------------------------------------------------------------------------------------#
+
+#---------------------------------------------------------------------------------------------------------------------------------------#
+Tzv. InPlace operatori nam pomažu da skratimo vrijeme prilikom pisanja određenog koda. Naprimjer kod ' x = x + 3 ', moguće je napisati
+kao ' x += 3' . 
+Pored operacije sabiranja, ovo je moguće izvršiti i sa ostalim operacijama (tj. oduzimanje, množenje, dijeljenje, pa čak i sa 
+modulo operatorom).
+
+*Pogledati primjer: "10_1InPlaceOperatori.py"
+
+
+Također, InPlace operatore, moguće je iskoristiti i sa operacijama nad stringovima. 
+Pogledati primjer: "10_2InPlaceOperatori.py"
+
+
+**URADITI ZADATAK: 15, 16
