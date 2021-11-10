@@ -1,0 +1,29 @@
+#                                                【P】 【Y】 【T】 【H】 【O】 【N】                                                      #
+#---------------------------------------------------------------------------------------------------------------------------------------#
+#---------------------------------------------------------------------------------------------------------------------------------------#
+                                                     BOOLEANI I KOMPARACIJA
+#---------------------------------------------------------------------------------------------------------------------------------------#
+
+#---------------------------------------------------------------------------------------------------------------------------------------#
+Dakle, već smo se upoznali sa Bool tipom podataka već ranije, međutim vrijeme je da okrenemo i njihovoj primjeni.
+U suštini boolean ima samo dvije vrijednosti : True i False (odnosno tačno i netačno)
+Korištenje boolean-a se naprimjer koristi pri usporedbi vrijednosti i za to ćemo koristiti operator jednakosti ==
+
+*Pogledati primjer: "11_1BooleanPr1.py"
+
+Važno je obratiti pažnju na operator jednakosti, dakle za jednakost koristimo dva znaka jednaka, dok za dodjelu vrijednosti varijabli
+koristimo se jednim znakom =
+
+
+Naravno, boolean ne čini samo operator jednakosti, već pored njega imamo i sljedeće operatore koje zajedno čine boolean:
+!=    ---> Ovaj operator predstavlja sljedeće: različito od ili nije jednako 
+>     ---> Ovaj operator predstavlja sljedeće: veće od 
+<     ---> Ovaj operator predstavlja sljedeće: manje od
+>=    ---> Ovaj operator predstavlja sljedeće: veće ili jednako
+<-    ---> Ovaj operator predstavlja sljedeće: manje ili jednako 
+
+
+Može se učiniti previše odjednom, međutim ovo je nešto što također poznajemo i iz matematike. 
+Operatore komparacije (usporedbe) također zovemo i relacionim operatorima 
+
+*Pogledati primjer: "11_2BooleanPr2.py"
