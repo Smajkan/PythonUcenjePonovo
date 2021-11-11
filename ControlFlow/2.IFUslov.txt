@@ -1,0 +1,35 @@
+#                                                【P】 【Y】 【T】 【H】 【O】 【N】                                                      #
+#---------------------------------------------------------------------------------------------------------------------------------------#
+#---------------------------------------------------------------------------------------------------------------------------------------#
+                                                         IF STATEMENT
+#---------------------------------------------------------------------------------------------------------------------------------------#
+
+#---------------------------------------------------------------------------------------------------------------------------------------#
+Ukoliko se podsjetimo zadnje lekcije iz dijela osnova (Booleani), možemo zaključiti da booleani zapravo određuju da li je naša izjava
+tačna ili netačna, ali šta mi konkretno možemo uraditi s tim i kako možemo iskoristiti boolean?
+
+Jedna od mogućnosti jeste da koristimo if uslov kako bi se izvršio određeni dio koda u zavisnosti na stanje, npr. Ukoliko je bool tačan.
+Kod if uslova, ako je uslov koji smo mi postavili tačan, onda će se samo tada izvršiti dio koda koji se nalazi unutar if uslova, inače
+ukoliko je uslov netačan, onda će se kod nastaviti izvršavati dalje, bez da izvrši dio koda koji se nalazi u if uslovu.
+
+if uslov izgleda ovako: 
+if uslov:
+    izjava
+
+Na mjesto gdje je upisano uslov, mi trebamo staviti zapravo neki uslov, pa npr. 1 == 1  ; i ne trebamo zaboraviti : poslije samog uslova.
+Zatim moramo napraviti uvlačenje, odnosno indentitation i zatim napisati izjavu odnosno kod koji će se izvršiti ukoliko je uslov 
+zadovoljen, pa npr. za izjavu možemo napisati print("1 jeste jednako 1 i zato se ovaj dio koda izvršio")
+
+Pogledati primjer: "2_1IFEx.py"
+
+
+Također, ono što je moguće uraditi jeste da ugnijezdimo if uslove, odnosno da imamo if uslov unutar if uslova.
+Na ovaj način možemo provjeriti da li je više uslova zadovoljeno.
+
+Pogledati primjer: "2_2Nestedifs.py"
+
+Kao što možete primjetiti svaki put kada imamo if statement potrebno je izvršiti uvlačenje, na taj način definiramo nivo 
+ugnježdavanja. 
+
+
+*Pogledati primjer: "2_3MoreNestedifs.py"

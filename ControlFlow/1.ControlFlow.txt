@@ -1,0 +1,22 @@
+#                                                【P】 【Y】 【T】 【H】 【O】 【N】                                                      #
+#---------------------------------------------------------------------------------------------------------------------------------------#
+#---------------------------------------------------------------------------------------------------------------------------------------#
+                                                         CONTROL FLOW
+#---------------------------------------------------------------------------------------------------------------------------------------#
+
+#---------------------------------------------------------------------------------------------------------------------------------------#
+~ŠTA JE TO CONTROL FLOW?
+U programiranju, control flow je redoslijed kojim se izvršavaju ili vrednuju pojedinačni iskazi, upute ili pozivi funkcija imperativnog
+programa. Naglasak na eksplicitnom control flowu razlikuje imperativni programski jezik od deklarativnog programskog jezika. 
+Unutar imperativnog programskog jezika, izjava control flow-a je izjava koja rezultira izborom koji od dva ili više izbora izvršiti.
+Za ne-striktne funkcionalne jezike, funkcije i jezične konstrukcije postoje kako bi postigli isto, ali se obično ne nazivaju 
+statmentima control flowa. Skup iskaza općenito je strukturiran kao blok, koji osim grupiranja definira i leksički opseg. Prekidi i 
+signali su mehanizmi niske razine koji mogu promijeniti control flow na način sličan potprogramu, ali se obično javljaju kao odgovor 
+na neki vanjski podražaj ili događaj, a ne kao izvršavanje in-line izjave control flow-a.
+
+Skraćeno rečeno, control flow je potreban kako bi izmijenili redoslijed izvršavanja programa na osnovu uvjeta.
+Ovo su neki od statementa koji se koriste za control flow:
+Izjave o donošenju odluka : if, else, elif
+Naredbe petlje : for, while
+Izjave o grananju : break, continue
+
