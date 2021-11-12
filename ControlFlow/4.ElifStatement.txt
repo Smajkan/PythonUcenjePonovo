@@ -1,0 +1,26 @@
+#                                                【P】 【Y】 【T】 【H】 【O】 【N】                                                      #
+#---------------------------------------------------------------------------------------------------------------------------------------#
+#---------------------------------------------------------------------------------------------------------------------------------------#
+                                                         ELIF STATEMENT
+#---------------------------------------------------------------------------------------------------------------------------------------#
+
+#---------------------------------------------------------------------------------------------------------------------------------------#
+Do sada smo naučili kako napisati kod i provjeriti mnogo slučajeva sa našim if/else statementima, zar to nije tačno?
+Ipak, iako je moguće, to i nije baš najbolja ideja. Ukoliko se osvrnemo na "3_3IfElseChain.py" primjer, možemo vidjeti kako taj kod
+može postati jako dug i također vrlo nečitljiv, što definitivno ne želimo. 
+
+Da bi riješili ovaj problem, uvodimo naredbu elif statement (skračeno za inače ako (engl. else if)). Elif statementi nam služe kao 
+prečica koju možemo koristiti prilikom uvezivanja više if i else statementa, a sve u svrhu da napravimo kod manjim (po broju linija), 
+kao i da postignemo lakšu čitljivost. 
+
+Isti primjer, tj. "3_3IfElseChain.py", može biti napisan kao u sljedećem primjeru:
+
+*Pogledati primjer: "4_1ElifPrimjer.py"
+
+Kao što možemo primjetiti vrlo kraće i čišće da kažemo u smislu da je kod lakše čitljivi. 
+
+Također, niz if i elif izjava može imati finalni else u kojem možemo napisati kod koji će se izvršiti ukoliko niti jedan uslova 
+koji smo stavili u if i elif nije zadovoljen, tj. Ukoliko niti jedan od uslova nije tačan. 
+
+
+**Uraditi zadatak: 18

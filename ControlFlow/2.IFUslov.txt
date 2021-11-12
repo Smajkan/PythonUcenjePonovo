@@ -33,3 +33,5 @@ ugnježdavanja.
 
 
 *Pogledati primjer: "2_3MoreNestedifs.py"
+
+**********Uraditi zadatak: 17

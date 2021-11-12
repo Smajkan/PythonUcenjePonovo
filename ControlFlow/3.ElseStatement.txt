@@ -1,0 +1,23 @@
+#                                                【P】 【Y】 【T】 【H】 【O】 【N】                                                      #
+#---------------------------------------------------------------------------------------------------------------------------------------#
+#---------------------------------------------------------------------------------------------------------------------------------------#
+                                                         ELSE STATEMENT
+#---------------------------------------------------------------------------------------------------------------------------------------#
+
+#---------------------------------------------------------------------------------------------------------------------------------------#
+Kao što kod if uslova, možemo izvršiti kod ukoliko je taj uslov zadovoljen, potpuno isto možemo uraditi i sa else, kada nam je uslov
+netačan.
+Dakle, kod unutar IF statementa izvršit će se samo ukoliko je uslov koji smo zadali zadovoljen odnosno True (tačan), a kod unutar else
+statementa će se izvršiti samo ukoliko je izjava koju smo prethodno definisali unutar if statementa netačna. 
+Kao i kod if uslova, tako i kod else-a, kod mora biti uvučen i također kao i kod if uslova moramo na kraju dodati dvotačku na kraju.
+
+Pogledati primjer: "3_1ElsePrimjer.py" i "3_2ElsePrimjer2.py"
+
+
+Moramo obratiti pažnju na to da, svaki IF uslov može imati samo jedan else. Tako da, kada bi željeli izvršiti više provjera,
+moramo uvezati više if i else statementa. 
+
+Pogledati primjer: "3_3IfElseChain.py"
+
+Unutar primjera "3_3IfElseChain.py" možemo vidjeti koliko je uvlačenje zapravo bitno u Pythonu i kako ono odlučuje kojem 
+if/else statementu određeni kod pripada.
