@@ -1,0 +1,32 @@
+#                                                【P】 【Y】 【T】 【H】 【O】 【N】                                                      #
+#---------------------------------------------------------------------------------------------------------------------------------------#
+#---------------------------------------------------------------------------------------------------------------------------------------#
+                                                         B O O L E A N   L O G I C
+#---------------------------------------------------------------------------------------------------------------------------------------#
+
+#---------------------------------------------------------------------------------------------------------------------------------------#
+
+Do sada smo se koristili samo nekom "osnovnom" bulovom logikom,
+sada je vrijeme da to prosirimo sa nekim od operatora.
+
+Operatori and, or, not nam omogucavaju provjeru vise uslova u 
+jednom if uslovu.
+
+Pocet cemo sa and operatorom
+
+*Pogledati primjer: "5BoolProsireno.py"
+
+Boolean operatore mozemo koristiti onoliko puta koliko to i zelimo.
+
+
+Sada cemo preci na "or" operator. 
+or operator ce biti tacan ukoliko su oba ili jedan od uslova 
+tacan odnosno zadovoljen i netacan ako su oba uslova netacna tj. False.
+
+Naravno, mozemo usporedjivati i varijable a ne samo vrijednosti.
+
+
+I za kraj not operator koji radi malo drugacije.
+not samo uzima jedan argument i "obrce ga". 
+Tj. Rezultat od not True je False, a rezultat od not False je True.
+Dakle samo vrsimo konverziju u suprotno, ako je False biti ce True i obrnuto.
