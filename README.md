@@ -17,15 +17,28 @@
     <img src="https://img.shields.io/badge/Written%20In-Python3-blue?style=flat-square">
 </p>
 
-### [+] Description
+### [+] Opis
 PythonUcenjePonovo - je repozitorija koja mi služi da objavljujem progres učenja Python programskog jezika. Također može se iskoristiti i za učenje Python-a za početnike.
 
 
-### [+] Usage
+### [+] Kako koristiti?
  - `python3 ime_fajla.py`
  - `notepad ime_fajla.txt`
  - `nano ime_fajla.txt`
 
-### [+] Requirements
+### [+] Zahtjevi
 python3
+
+### [+] Sadržaj
+([OSNOVE](https://github.com/Smajkan/PythonUcenjePonovo/tree/main/Osnove)) - Teorija, Instalacija, Sintaksa, Kljucne riječi, Identifikatori, Uvlacenje, Komentari, Varijable, Tipovi podataka, Jednostavne operacije, Nešto više o FLOAT-u, Količnik i ostatak, Naučimo Eksponencijalnost, Strings, Uzimanje korisničkog INPUT-a, InPlace operatori, Booleani i komparacija.
+
+([ControlFlow](https://github.com/Smajkan/PythonUcenjePonovo/tree/main/ControlFlow)) - Control flow, If uslov, Else statement, Elif statement, Boolean logika.
+
+
+([Zadatci](https://github.com/Smajkan/PythonUcenjePonovo/tree/main/Zadaci)) -Sadrži zadatke vezane za ovu repozitoriju.
+
+([Back On Track](https://github.com/Smajkan/PythonUcenjePonovo/tree/main/BackOnTrack)) - Zbog odsustva od 1. Mjeseca, u ovom folderu se nalazi nekoliko zadataka koje sam odradio. (Back  On Track Reason). 
+
+([Photos](https://github.com/Smajkan/PythonUcenjePonovo/tree/main/Photos)) - Sadrži slike vezane za ovu repozitoriju.
+
 
